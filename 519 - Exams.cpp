@@ -20,7 +20,7 @@ int main() {
 	int count,x,y,z;
 	std::cin >> count;
 	for (int i = 0; i < count; i++) {
-	    cin>> x >> y >> z;
+	    cin>>x >>y >>z;
         int totalStudents = x*y;
         if(z > (totalStudents/2)){
             std::cout << "YES" << std::endl;
