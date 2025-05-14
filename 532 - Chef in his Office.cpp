@@ -10,7 +10,6 @@
 // )
 // (Y<X) on Friday. Saturdays and Sundays are holidays.
 // Determine the total number of working hours in one week.
-
 #include <bits/stdc++.h>
 using namespace std;
 
