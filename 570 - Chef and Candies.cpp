@@ -7,7 +7,6 @@
 // X candies with him. To buy the rest, he visits a candy shop. In the shop, packets containing exactly 
 // 4
 // 4 candies are available.
-
 // Determine the minimum number of candy packets Chef must buy so that he is able to give 
 // 1
 // 1 candy to each of the 
