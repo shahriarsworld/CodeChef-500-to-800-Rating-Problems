@@ -24,15 +24,14 @@ using namespace std;
 
 int main() {
 	// your code goes here
-	int count;
-	float n;
+	int count, n;
 	std::cin >> count;
 	for (int i = 0; i < count; i++) {
 	    std::cin >> n;
-	    float totalIncome = (n * 50);
-	    float sugercane = (20 * totalIncome) / 100;
-	    float saltMint = (20 * totalIncome) / 100;
-	    float shopRent = (30 * totalIncome) / 100;
+	    int totalIncome = (n * 50);
+	    int sugercane = (20 * totalIncome) / 100;
+	    int saltMint = (20 * totalIncome) / 100;
+	    int shopRent = (30 * totalIncome) / 100;
 	    std::cout << totalIncome - (sugercane + saltMint + shopRent) << std::endl;
 	}
 
